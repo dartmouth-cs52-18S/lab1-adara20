@@ -1,5 +1,6 @@
   body {
-    background-image : url("https://media.giphy.com/media/eLfOeowlRF8Lm/giphy.gif");
+    
+   background-image: url("background.gif");
   }
 ul {
   background-color: lightblue;
