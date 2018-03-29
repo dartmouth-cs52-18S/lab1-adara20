@@ -1,7 +1,6 @@
   body {
     background-color: lightblue;
-
   }
 ul {
-  background-image : url(http://i.imgur.com/1db7u.gif);
+  background-image : url("http://i.imgur.com/1db7u.gif");
 }
