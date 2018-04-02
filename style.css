@@ -1,15 +1,58 @@
   body {
    background-image: url("background.gif");
-  } 
-ul {
-  background-color: lightblue;
-}
+  }
 
 h1 {
 	background-color: white;
 }
 
 a {
-	font-size: 50px;
+	font-size: 30px;
 	background-color: pink;
+}
+
+#headers {
+  position: relative;
+  top: 0px;
+}
+
+#BusinessName {
+  position: relative;
+
+}
+.dropdownButton {
+  background-color: white;
+  cursor: pointer;
+  border-style: outset;
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+}
+
+.food-items {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  min-width: 150px;
+  background-color: blue;
+  box-shadow: 0px,0px,0px,0px;
+
+}
+
+.dropdown-content a {
+  display: block;
+  color: green;
+  padding: 15px, 15px;
+
+}
+
+.dropdown-content a:hover {background-color: indigo}
+
+.food-items:hover .dropdown-content {
+  display: block;
 }
