@@ -1,60 +1,16 @@
-  body {
-   background-image: url("background.gif");
-  }
-
-h1 {
-	background-color: white;
-}
-
-a {
-	font-size: 30px;
-	background-color: pink;
-  padding-top: 10px;
-}
-
-#headers {
-  position: relative;
-  top: 0px;
-}
-
-#BusinessName {
-  position: relative;
+.Heading {
+  float: left;
+  background-image: url( banner.png);
+  background-blend-mode: darken;
+  width: 900px;
 
 }
-.dropdownButton {
-  background-color: white;
-  cursor: pointer;
-  border-style: outset;
-  font-size: 16px;
-  color: black;
-  padding: 10px;
+.mainContainer {
+  min-width: 300px;
 
 }
-
-.food-items {
-  display: inline-block;
-  position: relative;
-}
-
-.dropdown-content {
-  position: absolute;
-  display: none;
-  z-index: 1;
-  min-width: 150px;
-  background-color: blue;
-  box-shadow: 0px,0px,0px,0px;
-
-}
-
-.dropdown-content form {
-  display: block;
-  color: green;
-  padding: 15px, 15px;
-
-}
-
-.dropdown-content a:hover {background-color: indigo}
-
-.food-items:hover .dropdown-content {
-  display: block;
+#website_Name{
+  font-size: 70;
+  font-family: cursive;
+  font-weight: 400;
 }
