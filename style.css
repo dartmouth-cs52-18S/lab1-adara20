@@ -1,12 +1,52 @@
+.headerLinks {
+
+  display: flex;
+  align-items: center;
+  flex-flow: flex nowrap;
+  justify-content: flex-end;
+  margin-right: 1em;
+
+}
+.logo{
+  font-size: 0px;
+  font-style: italic;
+  font-weight: lighter;
+  color: white;
+}
+#website_Name {
+  text-align: center;
+  font-size: 40px;
+}
+#intro{
+  text-align: center;
+  padding-left: 50px;
+}
+html{
+  box-sizing: border-box;
+  background-image: url(pagebg.png);
+}
+.headerLinks li:first-child {
+  margin-right: auto;
+  font-size: 40px;
+}
+.headerLinks a {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+  color: white;
+}
 .Heading {
   float: left;
-  background-image: url( banner.png);
   background-blend-mode: darken;
-  width: 900px;
+  color: white;
+  text-align: center;
 
 }
 .mainContainer {
-  min-width: 300px;
+
+
 
 }
 #website_Name{
