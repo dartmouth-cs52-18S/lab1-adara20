@@ -3,7 +3,9 @@
   background-color: beige;
   margin: 10px auto 10 auto;
   padding: 30px;
-  justify-content: space-between;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
 
 }
 
@@ -59,7 +61,11 @@
 
 }
 
-
+@media only screen and (max-width: 640px) {
+  .Order-Section{
+    display: none;
+  }
+}
 
 @media (min-width: 600px) {
   .Order-Section {
