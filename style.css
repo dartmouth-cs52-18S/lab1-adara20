@@ -41,6 +41,7 @@
 html{
   box-sizing: border-box;
   background-image: url(pagebg.png);
+  
 
 }
 .headerLinks li:first-child {
