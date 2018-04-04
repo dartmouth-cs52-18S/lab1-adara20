@@ -4,6 +4,7 @@
   margin: 10px auto 10 auto;
   padding: 30px;
   justify-content: space-between;
+
 }
 
 .customer-testimony {
@@ -150,5 +151,5 @@ html{
   background-image: url(background.gif);
   background-size: cover;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
 }
