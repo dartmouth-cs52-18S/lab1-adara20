@@ -1,32 +1,19 @@
 .Order-Section {
-
-  max-width:  1300px;
-  margin: 40px auto 0 auto;
-  padding: 20px 50px;
+  max-width: 1400px;
+  background-color: black;
+  margin: 10px auto 10 auto;
+  padding: 30px;
+  justify-content: space-between;
 }
 
-.toppings{
-  flex: 3;
-  order: 2;
-  background-color: red;
-  box-sizing: border-box;
-  flex-basis: 30%;
-
-}
-.pizza-type{
-  flex: 1;
-  order: 1;
-  background-color: yellow;
-  box-sizing: border-box;
-  flex-basis: 30%;
-}
-
-.Delivery-Option{
-  flex: 1;
-  order: 3;
-  background-color: green;
-  box-sizing: border-box;
-  flex-basis: 30%;
+.customer-testimony {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100px;
+  background-color: black;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .Contact-Section{
@@ -41,18 +28,52 @@
 
 }
 
+.Order-Section h2 {
+  margin: auto;
+  font-family: cursive;
+}
+.toppings{
+
+  order: 2;
+  background-color: red;
+  box-sizing: border-box;
+  flex-basis: 30%;
+}
+.pizza-type{
+
+  order: 1;
+  background-color: yellow;
+  box-sizing: border-box;
+  flex-basis: 30%;
+
+}
+
+.Delivery-Option{
+
+  order: 3;
+  background-color: green;
+  box-sizing: border-box;
+  flex-basis: 30%;
+
+
+}
+
+
+
 @media (min-width: 600px) {
   .Order-Section {
     justify-content: space-between;
     display: flex;
   }
 
+  .
+
 }
 
 
 
 .Heading {
-  background-color: violet;
+  background-image: image(pizza.jpg);
   height: 400px;
   max-width: 700px;
   margin: 40px auto 40px auto;
@@ -75,17 +96,12 @@
 
 .submit-button {
   margin: auto;
-
-}
-
-.customer-testimony {
-  display: flex;
-  max-width: 1400px;
-  margin: 0 auto;
+  width: 100px;
   height: 100px;
-  background-color: black;
 
 }
+
+
 
 .history {
   background-color: red;
@@ -109,4 +125,16 @@
 .customer2 {
   background-color: green;
   flex: 1
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.cover {
+  background-image: url(hot_food.jpg);
+  background-size: cover;
 }
