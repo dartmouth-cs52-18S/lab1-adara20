@@ -1,76 +1,38 @@
-.headerLinks {
-  display: flex;
-  align-items: center;
-  flex-flow: flex nowrap;
-  justify-content: flex-end;
-  margin-right: 1em;
-  list-style-type: none;
+.Order-Section {
 
+  max-width:  1300px;
+  margin: 40px auto 0 auto;
+  padding: 20px 50px;
 }
 
-.Contact {
-  color: white;
-  font-style: italic;
-  display: flex;
-  position: relative;
-  flex-flow: flex nowrap;
-  justify-content: flex-end;
-  margin-right: 1em;
-  align-items: center;
-  float: left;
-}
-
-.logo{
-  font-style: italic;
-  font-weight: lighter;
-  color: white;
-  float: left;
-}
-
-#website_Name {
-  text-align: center;
-  font-size: 40px;
-  float: left;
-}
-#intro{
-  text-align: center;
-  position: relative;
-
-}
-
-html{
+.toppings{
+  flex: 3;
+  order: 2;
+  background-color: red;
   box-sizing: border-box;
-  background-image: url(pagebg.png);
-  
+  flex-basis: 30%;
 
 }
-.headerLinks li:first-child {
-  margin-right: auto;
-  font-size: 40px;
-
+.pizza-type{
+  flex: 1;
+  order: 1;
+  background-color: yellow;
+  box-sizing: border-box;
+  flex-basis: 30%;
 }
 
-.headerLinks a {
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 10px;
-  font-size: 20px;
-  margin-right: 20px;
-  color: white;
-
+.Delivery-Option{
+  flex: 1;
+  order: 3;
+  background-color: green;
+  box-sizing: border-box;
+  flex-basis: 30%;
 }
-.Heading {
-  float: left;
-  background-blend-mode: darken;
-  color: white;
-  text-align: right;
 
-}
-.mainContainer {
+@media (min-width: 900px) {
+  .Order-Section {
+    justify-content: space-between;
+    display: flex;
+  }
 
-}
-#website_Name{
-  font-size: 70;
-  font-family: cursive;
-  font-weight: 400;
 }

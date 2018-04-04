@@ -1,0 +1,76 @@
+.headerLinks {
+  display: flex;
+  align-items: center;
+  flex-flow: flex nowrap;
+  justify-content: flex-end;
+  margin-right: 1em;
+  list-style-type: none;
+
+}
+
+.Contact {
+  color: white;
+  font-style: italic;
+  display: flex;
+  position: relative;
+  flex-flow: flex nowrap;
+  justify-content: flex-end;
+  margin-right: 1em;
+  align-items: center;
+  float: left;
+}
+
+.logo{
+  font-style: italic;
+  font-weight: lighter;
+  color: white;
+  float: left;
+}
+
+#website_Name {
+  text-align: center;
+  font-size: 40px;
+  float: left;
+}
+#intro{
+  text-align: center;
+  position: relative;
+
+}
+
+html{
+  box-sizing: border-box;
+  background-image: url(pagebg.png);
+  
+
+}
+.headerLinks li:first-child {
+  margin-right: auto;
+  font-size: 40px;
+
+}
+
+.headerLinks a {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+  color: white;
+
+}
+.Heading {
+  float: left;
+  background-blend-mode: darken;
+  color: white;
+  text-align: right;
+
+}
+.mainContainer {
+
+}
+#website_Name{
+  font-size: 70;
+  font-family: cursive;
+  font-weight: 400;
+}
