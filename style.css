@@ -1,22 +1,18 @@
 .Order-Section {
   max-width: 1400px;
   background-color: beige;
-  margin: 10px auto 10 auto;
-  padding: 30px;
+  margin: 40px auto 0 auto;
+  padding: 30px 0;
   justify-content: space-around;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 
 }
-
-.customer-testimony {
-  display: flex;
-  max-width: 1400px;
-  margin: 0 auto;
-  height: 100px;
-  background-color: black;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.Order-Section h2 {
+  margin: auto;
+  font-family: cursive;
 }
 
 .Contact-Section{
@@ -31,49 +27,56 @@
 
 }
 
-.Order-Section h2 {
-  margin: auto;
-  font-family: cursive;
+.customer-testimony {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100px;
+  background-color: black;
+  flex-wrap: wrap;
+  justify-content: space-around;
+    flex-basis: 100%;
 }
-.toppings{
 
+
+
+
+.toppings{
+  display: flex;
+  flex-flow: wrap;
   order: 2;
   background-color: red;
   box-sizing: border-box;
-  flex-basis: 30%;
+
 }
 .pizza-type{
-
+  display: flex;
+  flex-flow: wrap;
   order: 1;
   background-color: yellow;
   box-sizing: border-box;
-  flex-basis: 30%;
+
 
 }
 
 .Delivery-Option{
-
+  display: flex;
+  flex-flow: wrap;
   order: 3;
   background-color: green;
   box-sizing: border-box;
-  flex-basis: 30%;
+
 
 
 }
 
-@media only screen and (max-width: 100px) {
-  .Order-Section{
-    display: none;
-  }
-}
+
 
 @media (min-width: 600px) {
   .Order-Section {
     justify-content: space-between;
     display: flex;
   }
-
-  .
 
 }
 
@@ -103,13 +106,13 @@
   display: flex;
   height: 50px;
   margin: 20px auto;
+  flex-basis: 100%;
 }
 
 .submit-button {
   margin: auto;
   width: 100px;
   height: 100px;
-
 }
 
 
@@ -141,7 +144,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Amatic SC;
+  font-family: sans-serif;
 }
 
 html{
