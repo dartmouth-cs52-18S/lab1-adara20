@@ -30,8 +30,9 @@
 }
 
 .Order-Section h2 {
-  margin: auto;
+
   font-family: cursive;
+  padding-right: 10px;
 
 
 }
@@ -67,15 +68,24 @@
 
 
 }
+
+.Delivery-Instructions {
+
+  display: flex;
+  flex-flow: wrap;
+  order: 4;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: stretch;
+
+}
 .pizza-type{
   display: flex;
   flex-flow: wrap;
   order: 1;
   box-sizing: border-box;
   color: red;
-
-
-
   background-size: 100%;
   align-items: stretch;
 
@@ -86,17 +96,15 @@
   flex-flow: wrap;
   order: 3;
   color: green;
-
   box-sizing: border-box;
-
-
-
-
-
   background-repeat: no-repeat;
   background-size: 100%;
   align-items: stretch;
 }
+
+
+
+
 
 
 
