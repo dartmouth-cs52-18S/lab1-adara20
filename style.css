@@ -100,16 +100,11 @@
 
 
 
-
-
-
-
 @media (min-width: 600px) {
   .Order-Section {
     justify-content: space-between;
     display: flex;
   }
-
 }
 
 .Heading {
