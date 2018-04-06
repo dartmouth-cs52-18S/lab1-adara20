@@ -253,7 +253,6 @@ html{
 
   .heading-menu a {
     display: flex;
-    border-bottom: 100px;
   }
 
   #mobile-menu:checked + .heading-menu {
