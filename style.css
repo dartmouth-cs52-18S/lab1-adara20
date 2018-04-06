@@ -2,8 +2,8 @@
   text-align: right;
   border-bottom: 3px;
   width: 100%;
-  height: 60px;
-  line-height: 60px;
+  height: 200px;
+  line-height: 200px;
 
 }
 
@@ -138,29 +138,6 @@ label {
 
 
 
-@media only screen and (max-width: 500px) {
-  label{
-    cursor: pointer;
-
-    display: flex;
-
-  }
-  .heading-menu {
-    text-align: center;
-    width: 100%;
-    display: none;
-  }
-
-  .heading-menu a {
-    display: flex;
-    border-bottom: 100px;
-  }
-
-  #mobile-menu:checked + .heading-menu {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
 .Heading {
   background-image: url(pizza.jpg);
@@ -257,4 +234,31 @@ html{
   background-size: cover;
   display: flex;
   flex-flow: row wrap;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+  label{
+    cursor: pointer;
+    display: block;
+
+  }
+  .heading-menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .heading-menu a {
+    display: flex;
+    border-bottom: 100px;
+  }
+
+  #mobile-menu:checked + .heading-menu {
+    display: block;
+    background-color: black;
+  }
+
 }
