@@ -66,15 +66,15 @@ label {
 }
 
 .Contact-Section{
-  max-width: 1400px;
-  margin: 40px auto 0 auto;
+
+  margin: 0;
   background-color: beige;
   flex-wrap: wrap;
   justify-content: space-around;
   display: flex;
   align-items: stretch;
   flex-direction: row;
-  padding: auto;
+  padding: 0;
   margin: inherit;
 
 }
