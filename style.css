@@ -6,14 +6,13 @@
 
 .heading-menu{
   margin: 0px 30px 30px 0px;
+  background-color: beige;
 }
 
 .heading-menu a {
-  color: white;
   margin: 0px 10px;
   text-decoration: none;
   line-height: 60px;
-
 }
 
 label {
@@ -190,7 +189,7 @@ html{
 
   #mobile-menu:checked + .heading-menu {
     display: block;
-    background-color: black;
+    background-color: beige;
   }
 
   .navigation {
