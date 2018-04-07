@@ -176,7 +176,7 @@ label {
 
 .Contact-Section b {
   cursor: pointer;
-  transition: transform 1s;
+  transition: 1s;
 }
 
 .Contact-Section b:hover {
