@@ -174,12 +174,12 @@ label {
   font-size: 50px;
 }
 
-.Contact-Section i {
+.Contact-Section b {
   cursor: pointer;
   transition: transform 1s;
 }
 
-.Contact-Section i:hover {
+.Contact-Section b:hover {
   transform: rotate(360deg);
 }
 
