@@ -214,6 +214,16 @@ a:hover{
   background-color: #c2c8e8;
 }
 
+.Contact-Section i {
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.Contact-Section i:hover {
+  transform: rotate(360deg);
+}
+
+
 button:hover {
-  background-color: #c2c8e8;
+  background-color: #c1b5e8;
 }
