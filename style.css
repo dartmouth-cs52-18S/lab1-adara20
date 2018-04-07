@@ -159,10 +159,7 @@ ul {
   color: blue;
   font-size: 30px;
   font-family: 'Hi Melody', cursive;
-
   margin-bottom: 20px;
-
-
 }
 
 
@@ -209,19 +206,14 @@ html{
     display: block;
     background-color: beige;
   }
-
-  .navigation {
-
-  }
-
 }
 
 
 a:hover{
   transition: 0.5s all;
-  background-color: pink;
+  background-color: #c2c8e8;
 }
 
-.footer {
-
+button:hover {
+  background-color: #c2c8e8;
 }
