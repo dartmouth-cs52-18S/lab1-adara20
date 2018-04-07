@@ -1,3 +1,41 @@
+html{
+  box-sizing: border-box;
+}
+.cover {
+  background-image: url(background.gif);
+  background-size: cover;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.Heading {
+  background-image: url(pizza.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 700px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100%;
+
+}
+
+.banner-text {
+  color: white;
+  font-family: 'Hi Melody', cursive;
+  font-size: 90px;
+  padding-left: 40px;
+}
+
+
 .navigation {
   text-align: right;
   width: 100%;
@@ -42,34 +80,6 @@ label {
   box-shadow: 5px 10px;
   font-family: 'Hi Melody', cursive;
 
-}
-
-
-
-.Order-Section h2 {
-  font-family: 'Hi Melody', cursive;
-  font-size: 35px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.Contact-Section{
-  background-color: beige;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  display: flex;
-  align-items: stretch;
-  flex-direction: row;
-  padding-bottom: 40px;
-  margin:auto;
-  text-decoration: none;
-}
-ul {
-  list-style-type: none;
-}
-.Contact-Section li {
-  margin-right: 30px;
-  font-size: 50px;
 }
 
 
@@ -126,27 +136,11 @@ ul {
   padding-bottom: 10px;
 }
 
-
-
-.Heading {
-  background-image: url(pizza.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  max-width: 700px;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  width: 100%;
-
-}
-
-.banner-text {
-  color: white;
+.Order-Section h2 {
   font-family: 'Hi Melody', cursive;
-  font-size: 90px;
-  padding-left: 40px;
-
+  font-size: 35px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .submit-section {
@@ -160,30 +154,48 @@ ul {
   font-size: 30px;
   font-family: 'Hi Melody', cursive;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
-
-
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
-html{
-  box-sizing: border-box;
-}
-
-
-.cover {
-  background-image: url(background.gif);
-  background-size: cover;
+.Contact-Section{
+  background-color: beige;
+  flex-wrap: wrap;
+  justify-content: space-around;
   display: flex;
-  flex-flow: row wrap;
-
+  align-items: stretch;
+  flex-direction: row;
+  padding-bottom: 40px;
+  margin:auto;
+  text-decoration: none;
 }
 
+.Contact-Section li {
+  margin-right: 30px;
+  font-size: 50px;
+}
+
+.Contact-Section i {
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.Contact-Section i:hover {
+  transform: rotate(360deg);
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+button:hover {
+  background-color: #c1b5e8;
+}
+
+a:hover{
+  transition: 0.5s all;
+  background-color: #c2c8e8;
+}
 
 
 @media only screen and (max-width: 500px) {
@@ -206,24 +218,4 @@ html{
     display: block;
     background-color: beige;
   }
-}
-
-
-a:hover{
-  transition: 0.5s all;
-  background-color: #c2c8e8;
-}
-
-.Contact-Section i {
-  cursor: pointer;
-  transition: transform 1s;
-}
-
-.Contact-Section i:hover {
-  transform: rotate(360deg);
-}
-
-
-button:hover {
-  background-color: #c1b5e8;
 }
