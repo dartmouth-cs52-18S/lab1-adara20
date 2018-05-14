@@ -20,16 +20,13 @@ The landing page is for a pizza delivery store in Hanover. User selects from a l
  - Cursor changes to pointer on hover 
  
  ## Small Screen
- ![image](smallscreen.png)
- 
- ## Small Screen Menu
- ![image](smallscreen.png)
- 
+ <img src="smallscreen.png" alt="screenshot" width="200" height="200">
+
  ## Small Screen Menu Clicked
- ![image](smallscreenmenuclicked.png)
- 
+ <img src="smallscreenmenuclicked.png" alt="screenshot" width="200" height="200">
+
  ## Initial Stage
- ![image](initialstage.png)
- 
+ <img src="initialstage.png" alt="screenshot" width="200" height="200">
+
  ## Hover effect
-![image](hovereffect.png)
+<img src="hovereffect.png" alt="screenshot" width="200" height="200">
