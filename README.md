@@ -19,4 +19,4 @@ The landing page is for a pizza delivery store in Hanover. User selects from a l
  - Social media icons rotate 360° on hover 
  - Cursor changes to pointer on hover 
  
- ![image]("small menu.png")
+ ![image](background.gif)
