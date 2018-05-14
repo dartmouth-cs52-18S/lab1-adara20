@@ -18,3 +18,5 @@ The landing page is for a pizza delivery store in Hanover. User selects from a l
  - Top menu different for mobile version (menu expands on click rather than being displayed automatically)
  - Social media icons rotate 360° on hover 
  - Cursor changes to pointer on hover 
+ 
+ ![]("small menu.png")
