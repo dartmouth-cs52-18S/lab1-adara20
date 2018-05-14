@@ -29,4 +29,4 @@ The landing page is for a pizza delivery store in Hanover. User selects from a l
  <img src="initialstage.png" alt="screenshot" width="400" height="400">
 
  ## Hover effect
-<img src="hovereffect.png" alt="screenshot" width="400" height="400">
+<img src="hovereffect.png" alt="screenshot" width="500" height="400">
